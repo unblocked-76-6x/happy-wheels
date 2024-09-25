@@ -1,0 +1,399 @@
+
+<!doctype html>
+<html>
+   <head>
+
+<script>
+	window.aiptag = window.aiptag || {cmd: []};
+	aiptag.cmd.display = aiptag.cmd.display || [];
+	aiptag.cmd.player = aiptag.cmd.player || [];
+	//CMP tool settings
+	aiptag.cmp = {
+		show: true,
+		position: "centered",  //centered, bottom
+		button: true,
+		buttonText: "Privacy settings",
+		buttonPosition: "bottom-left" //bottom-left, bottom-right, bottom-center, top-left, top-right
+	}
+	aiptag.cmd.player.push(function() {
+		aiptag.adplayer = new aipPlayer({
+			AD_WIDTH: 960,
+			AD_HEIGHT: 540,
+			AD_DISPLAY: 'center', //default, fullscreen, fill, center, modal-center
+			LOADING_TEXT: 'loading advertisement',
+			PREROLL_ELEM: function(){return document.getElementById('videoad')},
+			AIP_COMPLETE: function (state)  {
+				/*******************
+				 ***** WARNING *****
+				 *******************
+				 Please do not remove the PREROLL_ELEM
+				 from the page, it will be hidden automaticly.
+				*/
+				window.location.href = "https://cookieclicker.blog/go/happy-wheels.html";
+				//alert("Video Ad Completed: " + state);
+			}
+		});
+
+			});
+
+		function show_videoad() {
+		//check if the adslib is loaded correctly or blocked by adblockers etc.
+		if (typeof aiptag.adplayer !== 'undefined') {
+			aiptag.cmd.player.push(function() { aiptag.adplayer.startVideoAd(); });
+		} else {
+			//Adlib didnt load this could be due to an adblocker, timeout etc.
+			//Please add your script here that starts the content, this usually is the same script as added in AIP_COMPLETE.
+			window.location.href = "https://cookieclicker.blog/go/happy-wheels.html";
+			alert("Ad Could not be loaded, load your content here");
+			aiptag.adplayer.aipConfig.AIP_COMPLETE();
+			
+		}
+	}
+		</script>
+	<script async src="//api.adinplay.com/libs/aiptag/pub/AGB/classroom247.pages.dev/tag.min.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+	<title>Happy Wheels Unblocked 6x - 76</title>
+			<meta property="og:image" content="files/image/happy-wheels.jpeg" />
+	<meta property="image" content="files/image/happy-wheels.jpeg" />
+	<link rel="image_src" href="files/image/happy-wheels.jpeg" />
+		<link rel="canonical" href="https://cookieclicker.blog/happy-wheels.html" />
+	<script language="javascript">
+	function swf(e,t,a){document.write('<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="'+t+'" height="'+a+'">'),document.write('<param name="movie" value="'+e+'">'),document.write('<param name="wmode" value="transparent" />'),document.write('<param name="quality" value="high">'),document.write('<param name="allownetworking" value="internal" />'),document.write('<param name="allowscriptaccess" value="samedomain" />'),document.write('<embed src="'+e+'" allownetworking="internal" allowscriptaccess="samedomain" scale="exactfit" swliveconnect="false"  id="currentEmbedGame" quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="'+t+'" height="'+a+'" menu="0"></embed>'),document.write("</object>")}function dcr(e,t,a){document.write('<object classid="clsid:166B1BCA-3F9C-11CF-8075-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/director/sw.cab#version=7,0,2,0" width="'+t+'" height="'+a+'">'),document.write("<param name=\"swRemote\" value=\"swSaveEnabled='true' swVolume='true' swRestart='true' swPausePlay='true' swFastForward='true' swContextMenu='true'\">"),document.write('<param name="swStretchStyle" value="meet">'),document.write('<param name="bgColor" value="#000000">'),document.write('<param name="src" value="'+e+'">'),document.write('<embed src="'+e+'" width="'+t+'" height="'+a+"\" bgColor=\"#000000\" swRemote=\"swSaveEnabled='true' swVolume='true' swRestart='true' swPausePlay='true' swFastForward='true' swContextMenu='true'\" swStretchStyle=\"meet\" type=\"application/x-director\" pluginspage=\"http://www.macromedia.com/shockwave/download/\"></embed>"),document.write("</object>")}function indir(e){jQuery.ajax({type:"POST",url:"https://cookieclicker.blog/index.php?act=islem&indir="+e,data:e,success:function(e){$("#indir").html(e)}})}function yeniler(e){jQuery.ajax({type:"POST",url:"https://cookieclicker.blog/index.php?act=script&yeniler&sayfa="+e,data:e,success:function(e){$("#yeniler").html(e)}})}function populer(e){jQuery.ajax({type:"POST",url:"https://cookieclicker.blog/index.php?act=script&pop&pop="+e,data:e,success:function(e){$("#populer").html(e)}})}function yorumsayfala(e,t,a){jQuery.ajax({type:"POST",url:"https://cookieclicker.blog/index.php?act=script&yorum",data:"oyunid="+e+"&sayfa="+t+"&sclass="+a,success:function(e){$("#yorumlar").html(e)}})}function begen(e,t){jQuery.ajax({type:"POST",url:"https://cookieclicker.blog/index.php?act=script&begen="+e+"&durum="+t,data:e,success:function(e){"error"==e||$("#starz").html(e)}})}
+	</script>
+	<!-- Meta, title, CSS, JS, favicons, etc. -->
+    <!-- Default link -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://cookieclicker.blog/assets/css/custom.css?1727296126" rel="stylesheet" type="text/css" />
+    <link href="https://cookieclicker.blog/assets/css/responsive.css?1727296126" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://cookieclicker.blog/assets/js/html5shiv.min.js"></script>
+      <script src="https://cookieclicker.blog/assets/js/respond.min.js"></script>
+      
+    <![endif]-->
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script>
+function swf(e, a, t) {
+	document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="'+ a +'" height="'+ t +'" id="flash-content" align="middle" class="item-direct-container resizable">')
+    document.write('<param name="allowScriptAccess" value="never">')
+    document.write('<param name="movie" value="'+ e + '">')
+    document.write('<param name="quality" value="high">')
+    document.write('<param name="wmode" value="direct">')
+    document.write('<param name="allowfullscreen" value="false">')
+    document.write('<param name="allowfullscreeninteractive" value="false">')
+    document.write('<param name="fullScreenAspectRatio" value="">')
+    document.write('<param name="quality" value="">')
+    document.write('<param name="play" value="true">')
+    document.write('<param name="loop" value="true">')
+    document.write('<param name="menu" value="">')
+    document.write('<param name="hasPriority" value="true">')
+	document.write('<embed src="' + e +'" class="item-direct-container resizable" width="' + a + '" height="' + t + '" id="gamefileEmbed" name="flash-content" align="middle" wmode="direct" allowfullscreen="false" allowfullscreeninteractive="false" fullscreenaspectratio="" quality="high" play="true" loop="true" menu="" allowscriptaccess="never" haspriority="true" type="application/x-shockwave-flash" pluginspage="https://www.adobe.com/go/getflashplayer">')
+	document.write('</object>')
+}
+function dcr(e, a, t) {
+    document.write('<object classid="clsid:166B1BCA-3F9C-11CF-8075-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/director/sw.cab#version=7,0,2,0" width="' + a + '" height="' + t + '">'), document.write("<param name=\"swRemote\" value=\"swSaveEnabled='true' swVolume='true' swRestart='true' swPausePlay='true' swFastForward='true' swContextMenu='true'\">"), document.write('<param name="swStretchStyle" value="meet">'), document.write('<param name="bgColor" value="#000000">'), document.write('<param name="src" value="' + e + '">'), document.write('<embed src="' + e + '" width="' + a + '" height="' + t + "\" bgColor=\"#000000\" swRemote=\"swSaveEnabled='true' swVolume='true' swRestart='true' swPausePlay='true' swFastForward='true' swContextMenu='true'\" swStretchStyle=\"meet\" type=\"application/x-director\" pluginspage=\"http://www.macromedia.com/shockwave/download/\"></embed>"), document.write("</object>")
+}
+function begen(b, a) {
+        jQuery.ajax({
+            type: "POST",
+            url: "https://cookieclicker.blog/i/vote?begen=" + b + "&durum=" + a,
+            data: b,
+            success: function(c) {
+				if(c=="error"){
+					alert("Opps! Already voted.");
+					
+				} else {
+					$("#voteresults").html(c);
+				}
+            }
+        })
+}
+</script>
+<script type="application/ld+json">
+[
+	{
+		"@context": "http://schema.org",
+		"@type": "WebSite",
+		"name" : "https://cookieclicker.blog",
+		"url": "https://cookieclicker.blog",
+		"potentialAction": {
+			"@type": "SearchAction",
+			"target": "https://cookieclicker.blog/search/{search_term_string}",
+			"query-input": "required name=search_term_string"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name" : "https://cookieclicker.blog",
+			"url": "https://cookieclicker.blog",
+			"logo": {
+				"@type": "ImageObject",
+				"url": "https://cookieclicker.blog/assets/images/logo.png",
+				"width": 158,
+				"height": 53
+			}
+		}
+	}
+
+	,{
+		"@context": "http://schema.org",
+		"@type": "SoftwareApplication",
+		"dateCreated": "2024-06-12T16:59:13",
+		"datePublished": "2024-06-12T16:59:13",
+		"dateModified": "2024-06-12T16:59:13",
+		"url": "https://cookieclicker.blog/happy-wheels.html",
+		"applicationCategory": "Action Games",
+		"operatingSystem": "Windows, OSX, Linux",
+		"name": "Happy Wheels",
+		"description": "<p><strong>Happy Wheels unblocked</strong>, the creation of Jim Bonacci, is a game that defies convention and offers a fun, yet unusual gaming experience. This side-scrolling game, born in June 2010, has been a fan favorite for years, offering those who dare to race through its incredible trick levels.</p>
+
+<p><em><strong>Happy Wheels unblocked</strong></em> is known for its humor and extreme violence. In the game, you will manage different characters in different levels that are pointless and dangerous full of deadly traps. Your job? Walk through these dangerous lands without losing too many limbs or suffering a horrible and horrible death. It&#39;s not for the faint of heart, but it&#39;s a fun and addictive experience.</p>
+",
+	
+	
+	
+		"aggregateRating": {
+			"@type": "http://schema.org/AggregateRating",
+			"ratingValue": 4.42,
+			"ratingCount": 17,
+			"worstRating": 1,
+			"bestRating": 5
+		},
+		"offers": {
+			"@type": "http://schema.org/Offer",
+			"price": "0",
+			"priceCurrency": "usd",
+			"availability": "http://schema.org/InStock"
+		},
+		"screenshot": [
+			
+		]
+	},
+	{
+		"@context": "http://schema.org",
+		"@type": "BreadcrumbList",
+		"itemListElement": [
+	
+	
+		
+		{
+			"@type": "http://schema.org/ListItem",
+			"position": 1,
+			"item": {
+				"@type": "http://schema.org/Thing",
+				"name": "Action Games",
+				"id": "https://cookieclicker.blog/action-games"
+			}
+		},
+		
+		{
+			"@type": "http://schema.org/ListItem",
+			"position": 2,
+			"item": {
+				"@type": "http://schema.org/Thing",
+				"name": "Happy Wheels",
+                                "id": "Action Games",
+				"url": "https://cookieclicker.blog/happy-wheels.html",
+				"image": "files/image/happy-wheels.jpeg"
+			}
+		}]
+	}
+]
+</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7667920842875714"
+     crossorigin="anonymous"></script> 
+   
+</head>
+
+<body>
+<div id="videoad"></div>
+<header> 
+	<div class="container"> 
+		<div class="row"> 
+			<div class="col-3"> 
+				<a class="logo" href="https://cookieclicker.blog"><img src="https://cookieclicker.blog/assets/images/logo.png" alt="" /></a>
+			</div>
+			<div class="col-4">
+				<h1 class="title-h1">PLAY FREE GAMES</h1>
+			</div>
+			<div class="col-5 text-right">	   
+				<form class="header-search"  action="https://cookieclicker.blog" autocomplete="off" method="GET">
+					<input name="act" value="ara" type="hidden" />
+					<input name="term" type="text" class="search-game" placeholder="Search for games" />
+					<button class="btn-search"></button>
+					<ul class="game-results"></ul>
+				</form>
+			</div>
+		</div>
+	</div>
+</header>
+
+	       <style type="text/css"> 
+.game-info:after {
+        background-image: url(files/image/happy-wheels.jpeg);
+    }
+</style>
+<center>
+<div id='classroom247-pages-dev_970x250'>
+		<script type='text/javascript'>
+			aiptag.cmd.display.push(function() { aipDisplayTag.display('classroom247-pages-dev_970x250'); });
+		</script>
+	</div>
+
+</center>
+<div class="container-fluid pt-3">
+    <div class="row">
+         
+        <div class="center-side">
+            <div class="row bg-white pt-3 pb-2">
+                <div class="col-lg-5 col-12">
+                  <div class="ads-auto">
+				 <center> 
+				 <div id='classroom247-pages-dev_336x280'>
+		<script type='text/javascript'>
+			aiptag.cmd.display.push(function() { aipDisplayTag.display('classroom247-pages-dev_336x280'); });
+		</script>
+	</div>
+	</center>
+				  </div>
+                </div>
+				<div class="col-lg-7 col-8 pl-0 game-info"> 
+					<div class="row"> 
+					<div class="col-8"> 
+						<article class="game-description"> 
+						<h1 class="h4">Happy Wheels</h1>
+						<p><strong>Happy Wheels unblocked</strong>, the creation of Jim Bonacci, is a game that defies convention and offers a fun, yet unusual gaming experience. This side-scrolling game, born in June 2010, has been a fan favorite for years, offering those who dare to race through its incredible trick levels.</p>
+
+<p><em><strong>Happy Wheels unblocked</strong></em> is known for its humor and extreme violence. In the game, you will manage different characters in different levels that are pointless and dangerous full of deadly traps. Your job? Walk through these dangerous lands without losing too many limbs or suffering a horrible and horrible death. It&#39;s not for the faint of heart, but it&#39;s a fun and addictive experience.</p>
+						</article>
+						
+					</div>
+					<div class="col-4"> 
+						<figure class="game-image"> 
+							<img src="files/image/happy-wheels.jpeg" class="rounded-lg" width="100%" alt="" />
+						</figure>
+						<div class="game-buttons"> 
+						 <span class="total-played"><i class="fas fa-gamepad"></i> 2485 x Played</span>
+							<span class="like"><i class="fas fa-thumbs-up"></i> 15 x Like</span>
+							<span class="dislike"><i class="fas fa-thumbs-down"></i> 2 x Dislike</span>
+							<a class="btn-play" onclick="show_videoad();" href="#">PLAY NOW</a>
+						</div>
+					</div>
+					</div>
+					
+				</div>
+				
+					
+				
+            </div>
+			<div class="row"> 
+			 <div class="col-12 mt-5 pl-5">
+				<h2>Similar Games</h2>
+				<div class="game-items dp-inline text-center small-thumbs">
+					
+				<a class="game-tile"  href="https://cookieclicker.blog/geometry-dash.html" title="Geometry Dash" data-title="Geometry Dash">
+						<span>Geometry Dash</span>
+						<img src="https://cookieclicker.blog/files/image/geometry-dash.png" alt="Geometry Dash" width="300" height="100" />
+						</a>
+			
+				<a class="game-tile"  href="https://cookieclicker.blog/happy-wheels.html" title="Happy Wheels" data-title="Happy Wheels">
+						<span>Happy Wheels</span>
+						<img src="https://cookieclicker.blog/files/image/happy-wheels.jpeg" alt="Happy Wheels" width="300" height="100" />
+						</a>
+			
+				<a class="game-tile"  href="https://cookieclicker.blog/slope.html" title="Slope" data-title="Slope">
+						<span>Slope</span>
+						<img src="https://cookieclicker.blog/files/image/slope.png" alt="Slope" width="300" height="100" />
+						</a>
+							</div>
+			</div>
+			</div>
+			<div class="row"> 
+				  <div class="col-12 mt-5 pl-5">
+                    <h2>
+                        Related Categories
+                    </h2>
+                    <a class="cat-item" href="https://cookieclicker.blog/2-player-games" title="2 Player Games"><img src="https://retrobowl.blog/image/kategori/ikon/2-player_5e297c3ac2b2a.jpg" alt="" />2 Player Games</a><a class="cat-item" href="https://cookieclicker.blog/action-games" title="Action Games"><img src="https://retrobowl.blog/image/kategori/ikon/action-games_5e298d9c94e18.png" alt="" />Action Games</a><a class="cat-item" href="https://cookieclicker.blog/adventure-games" title="Adventure Games"><img src="https://retrobowl.blog/image/kategori/ikon/adventure-games_5e299450295a3.png" alt="" />Adventure Games</a><a class="cat-item" href="https://cookieclicker.blog/animal-games" title="Animal Games"><img src="https://retrobowl.blog/image/kategori/ikon/animal-games_5e2999f77a16e.jpg" alt="" />Animal Games</a><a class="cat-item" href="https://cookieclicker.blog/arcade-games" title="Arcade Games"><img src="https://retrobowl.blog/image/kategori/ikon/arcade-games_5e29a74cd0b4d.jpg" alt="" />Arcade Games</a><a class="cat-item" href="https://cookieclicker.blog/board-games" title="Board Games"><img src="https://retrobowl.blog/image/kategori/ikon/board-games_5e29a1f03b2d1.jpg" alt="" />Board Games</a><a class="cat-item" href="https://cookieclicker.blog/car-games" title="Car Games"><img src="https://retrobowl.blog/image/kategori/ikon/car-games_5e29a954d8a91.png" alt="" />Car Games</a><a class="cat-item" href="https://cookieclicker.blog/card-games" title="Card Games"><img src="https://retrobowl.blog/image/kategori/ikon/card-games_5e29aae231ef8.png" alt="" />Card Games</a><a class="cat-item" href="https://cookieclicker.blog/cooking-food-games" title="Cooking & Food Games"><img src="https://retrobowl.blog/image/kategori/ikon/cooking-food-games_5e29aea14c3ee.jpg" alt="" />Cooking & Food Games</a><a class="cat-item" href="https://cookieclicker.blog/fighting-games" title="Fighting Games"><img src="https://retrobowl.blog/image/kategori/ikon/fighting-games_5e29b11c88f43.jpg" alt="" />Fighting Games</a><a class="cat-item" href="https://cookieclicker.blog/girl-games" title="Girl Games"><img src="https://retrobowl.blog/image/kategori/ikon/girl-games_5e29b3af4001c.png" alt="" />Girl Games</a><a class="cat-item" href="https://cookieclicker.blog/io-games" title="IO Games"><img src="https://retrobowl.blog/image/kategori/ikon/io-game_5e295be4d44fc.png" alt="" />IO Games</a><a class="cat-item" href="https://cookieclicker.blog/motorbike-games" title="Motorbike Games"><img src="https://retrobowl.blog/image/kategori/ikon/motorbike-games_5e29bafae51bd.png" alt="" />Motorbike Games</a><a class="cat-item" href="https://cookieclicker.blog/multiplayer-games" title="Multiplayer Games"><img src="https://retrobowl.blog/image/kategori/ikon/multiplayer-games_5e29bdd2baf3c.jpg" alt="" />Multiplayer Games</a><a class="cat-item" href="https://cookieclicker.blog/puzzle-games" title="Puzzle Games"><img src="https://retrobowl.blog/image/kategori/ikon/puzzle-games_5e2a20e08bdf8.png" alt="" />Puzzle Games</a><a class="cat-item" href="https://cookieclicker.blog/racing-games" title="Racing Games"><img src="https://retrobowl.blog/image/kategori/ikon/racing-games_5e2a255155ef5.jpg" alt="" />Racing Games</a><a class="cat-item" href="https://cookieclicker.blog/shooting-games" title="Shooting Games"><img src="https://retrobowl.blog/image/kategori/ikon/shooting-games_5e2a276bc8e45.png" alt="" />Shooting Games</a><a class="cat-item" href="https://cookieclicker.blog/sports-games" title="Sports Games"><img src="https://retrobowl.blog/image/kategori/ikon/sports-games_5e2a29b317880.png" alt="" />Sports Games</a><a class="cat-item" href="https://cookieclicker.blog/strategy-games" title="Strategy Games"><img src="https://retrobowl.blog/image/kategori/ikon/strategy-games_5e2a2c3c959af.png" alt="" />Strategy Games</a><a class="cat-item" href="https://cookieclicker.blog/war-games" title="War Games"><img src="https://retrobowl.blog/image/kategori/ikon/war-games_5e2a2eba28390.png" alt="" />War Games</a>                </div>
+			</div>
+        </div>
+        
+    </div>
+</div>
+</div>
+<div id="mboost-hwds" class="absolute" style="top: 105px;">
+<div id="mboost-ds1">
+<div id='classroom247-pages-dev_160x600'>
+		<script type='text/javascript'>
+			aiptag.cmd.display.push(function() { aipDisplayTag.display('classroom247-pages-dev_160x600'); });
+		</script>
+	</div>
+
+</div>
+<div id="mboost-ds2">
+<div id='classroom247-pages-dev_160x600_2'>
+		<script type='text/javascript'>
+			aiptag.cmd.display.push(function() { aipDisplayTag.display('classroom247-pages-dev_160x600_2'); });
+		</script>
+	</div>
+</div>
+</div><script src="https://npmcdn.com/isotope-layout@3/dist/isotope.pkgd.js" data-cfasync="false"></script>
+<script type="text/javascript"> 
+	 
+ $(document).ready(function(){
+        $('.search-game').on("keyup input", function(){
+            var inputVal = $(this).val();
+            var resultDropdown = $(this).siblings(".game-results");
+            if(inputVal.length > 1){
+                $.get('https://cookieclicker.blog/i/search', {term: inputVal}).done(function(data){
+					
+                    resultDropdown.html(data);
+                });
+            }else{
+                resultDropdown.empty();
+            }
+        });
+        $(document).on("click", ".liveresult li", function(){
+            $(this).parents(".search-game").val($(this).text());
+            $(this).parent(".game-results").empty();
+        });
+    });
+	
+</script>
+<footer> 
+<div class="col-lg-12 text-center"> 
+	<a href="https://cookieclicker.blog"><img src="https://cookieclicker.blog/assets/images/logo.png" alt="" /></a>
+</div>
+<div class="col-lg-12 mt-5"> 
+<ul class="footer_list">
+	<li><a href="https://cookieclicker.blog/sitemap.xml" title="Sitemap">Sitemap</a></li>
+	<li><a href="https://cookieclicker.blog/rss.xml" title="Rss">Rss</a></li>
+	<li><a href="https://cookieclicker.blog/privacy-policy" title="Privacy">Privacy & Policy</a></li>
+	<li><a href="https://cookieclicker.blog/about-us" title="About Us">About Us</a></li>
+	<li><a href="https://cookieclicker.blog/contact" title="Contact">Contact</a></li>
+	<li><a href="https://github.com/unblocked-games-76z">unblocked games</a></li>
+	<li><a href="https://github.com/unblocked-76-6x/cookie-clicker" title="cookie clicker">cookie clicker</a></li>
+    <li><a href="https://www.symbaloo.com/mix/cookieclicker-2-unblocked" title="cookie clicker">cookie clicker</a></li>
+</ul>
+</div>
+
+</footer>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F9300Z725E"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-F9300Z725E');
+</script>
+
+
+   			
+</body>   
+
+ 
+</html>
